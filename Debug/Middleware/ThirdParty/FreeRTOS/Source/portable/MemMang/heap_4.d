@@ -1,16 +1,7 @@
-Core/Src/main.o: ../Core/Src/main.c \
- /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Config/mcu.h \
- /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Core/Inc/stm32f4xx.h \
- /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Core/Inc/stm32f446xx.h \
- /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/CMSIS/core_cm4.h \
- /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/CMSIS/cmsis_version.h \
- /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/CMSIS/cmsis_compiler.h \
- /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/CMSIS/cmsis_gcc.h \
- /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/CMSIS/mpu_armv7.h \
- /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Core/Inc/system_stm32f4xx.h \
- /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Config/FreeRTOSConfig.h \
- /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Config/FreeRTOSTasks.h \
+Middleware/ThirdParty/FreeRTOS/Source/portable/MemMang/heap_4.o: \
+ ../Middleware/ThirdParty/FreeRTOS/Source/portable/MemMang/heap_4.c \
  /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Middleware/ThirdParty/FreeRTOS/Source/include/FreeRTOS.h \
+ /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Config/FreeRTOSConfig.h \
  /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Middleware/ThirdParty/FreeRTOS/Source/include/projdefs.h \
  /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Middleware/ThirdParty/FreeRTOS/Source/include/portable.h \
  /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Middleware/ThirdParty/FreeRTOS/Source/include/deprecated_definitions.h \
@@ -18,18 +9,8 @@ Core/Src/main.o: ../Core/Src/main.c \
  /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Middleware/ThirdParty/FreeRTOS/Source/include/mpu_wrappers.h \
  /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Middleware/ThirdParty/FreeRTOS/Source/include/task.h \
  /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Middleware/ThirdParty/FreeRTOS/Source/include/list.h
-/Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Config/mcu.h:
-/Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Core/Inc/stm32f4xx.h:
-/Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Core/Inc/stm32f446xx.h:
-/Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/CMSIS/core_cm4.h:
-/Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/CMSIS/cmsis_version.h:
-/Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/CMSIS/cmsis_compiler.h:
-/Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/CMSIS/cmsis_gcc.h:
-/Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/CMSIS/mpu_armv7.h:
-/Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Core/Inc/system_stm32f4xx.h:
-/Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Config/FreeRTOSConfig.h:
-/Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Config/FreeRTOSTasks.h:
 /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Middleware/ThirdParty/FreeRTOS/Source/include/FreeRTOS.h:
+/Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Config/FreeRTOSConfig.h:
 /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Middleware/ThirdParty/FreeRTOS/Source/include/projdefs.h:
 /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Middleware/ThirdParty/FreeRTOS/Source/include/portable.h:
 /Users/ggpai/Desktop/stm32_FreeRTOS_Project/workspace/Air_Quality_RTOS/Middleware/ThirdParty/FreeRTOS/Source/include/deprecated_definitions.h:

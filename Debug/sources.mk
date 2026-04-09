@@ -23,5 +23,8 @@ C_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 Core/Src \
+Middleware/ThirdParty/FreeRTOS/Source \
+Middleware/ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F \
+Middleware/ThirdParty/FreeRTOS/Source/portable/MemMang \
 Startup \
 

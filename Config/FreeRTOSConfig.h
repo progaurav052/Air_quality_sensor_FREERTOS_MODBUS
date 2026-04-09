@@ -73,9 +73,11 @@
 #define configUSE_MALLOC_FAILED_HOOK      0
 #define configUSE_APPLICATION_TASK_TAG    0
 #define configUSE_COUNTING_SEMAPHORES     1
-#define configGENERATE_RUN_TIME_STATS     1
 #define configRECORD_STACK_HIGH_ADDRESS   1 // to monitor each task stack usage , used in tasks.c
 
+
+/* Run time stats configuration - used in later part of the course  */
+//#define configGENERATE_RUN_TIME_STATS     1
 /* Co-routine definitions. */
 #define configUSE_CO_ROUTINES           0
 #define configMAX_CO_ROUTINE_PRIORITIES (2)
