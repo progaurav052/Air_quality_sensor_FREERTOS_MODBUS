@@ -26,5 +26,6 @@ Core/Src \
 Middleware/ThirdParty/FreeRTOS/Source \
 Middleware/ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F \
 Middleware/ThirdParty/FreeRTOS/Source/portable/MemMang \
+Peripherals/Src \
 Startup \
 
